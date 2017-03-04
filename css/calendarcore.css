@@ -1,0 +1,147 @@
+#event-info {
+	height: 150px;
+	width: 500px;
+	overflow: auto;
+
+	position: absolute;
+	left: 0;
+	top: 0;
+
+	padding: 5px;
+
+	background-color: #ccc;
+	border-radius: 7px;
+	border-top-left-radius: 0px;
+
+	border: 1px solid #666;
+	color: #000;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+				
+	display: none;
+    z-index: 2000;
+}
+
+#event-info .info {
+	width: 100%;
+}
+			
+#event-info table.info {
+	border-spacing: 7px 0px;
+}			
+			
+#event-info .info .label {
+	text-align: right;
+	font-weight: bold;
+	width: 50%;
+}
+
+#event-info p {
+	padding: 0px 5px;
+	margin: 0px;
+}
+
+#event-info .header {
+	height: auto;
+	width: 92%;
+	line-height: 30px;
+
+	padding: 10px 20px;
+	/*margin: 0px;*/
+	margin-bottom: 5px;
+	
+	/*text-indent: 10px;*/
+
+	text-transform: uppercase;
+	overflow: hidden;
+
+	color: #fff;
+	font-size: 18px;
+	
+	background-color: #801200;
+	background-image: url(http://www.csu.ru/Style%20Library/Images/calendarServices/header-bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	
+	float: left;
+}
+
+#event-info .close {
+	height: auto;
+	min-height: 32px;
+	width: 32px;
+
+	position: absolute;
+	display: block;
+	right: 5px;
+	/*top: 10px;*/
+
+	/*background-color: #801200;*/
+	background-image: url(http://www.csu.ru/Style%20Library/Images/calendarServices/close-button-png-30230.png);
+	background-repeat: no-repeat;
+	background-size: 80%;
+	background-position: center;
+	cursor: pointer;
+}
+
+table.info td {
+	padding: 2px 3px;
+}
+
+.fc-event-container a:visited {
+	color: #FFFFFF !important;
+}
+
+.fc-event-container {
+	cursor: pointer;
+}
+
+.content h2 {
+	font-size: 17px !important;
+}
+
+.fc-toolbar .fc-center {
+	float: left;
+	margin-left: 10px;
+}
+
+.fc-right h2 {
+	color: #801200;
+}
+
+.url-outp {
+	float: right;
+}
+
+.url-outp {
+	margin-top: 10px;
+}
+
+.url-outp a {
+	color: #831400;
+	text-decoration: none;
+}
+
+.url-outp a:hover {
+	text-decoration: underline;
+}
+
+#tooltip {
+	display: none;
+}
+
+.tooltip{
+position:absolute;
+z-index:999;
+left:-9999px;
+background-color:#dedede;
+padding:5px;
+border:1px solid #fff;
+width:250px;
+}
+.tooltip p{
+margin:0;
+padding:0;
+color:#fff;
+background-color:#222;
+padding:2px 7px;
+}
